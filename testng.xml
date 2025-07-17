@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="APISuite">
+  <test thread-count="5" name="User API Tests">
+    <classes>
+      <class name="tests.UserTests"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
