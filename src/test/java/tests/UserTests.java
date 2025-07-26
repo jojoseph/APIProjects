@@ -25,7 +25,7 @@ public class UserTests {
             .when().get("https://api.example.com/user/1") // Send GET request
             .then() // Begin assertions
             .assertThat()
-            .body(matchesJsonSchemaInClasspath("UserSchema.json")); // Validate against schema file
+            .body(matchesJsonSchemaInClasspath("UserSchema.json")); //git test Validate against schema file
     }
 
     /**

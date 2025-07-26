@@ -1,0 +1,42 @@
+# Build artifacts
+/target/
+/bin/
+/build/
+*.class
+*.jar
+*.war
+*.ear
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+.vscode/
+
+# Dependency directories
+**/dependency-reduced-pom.xml
+**/mvnw
+**/mvnw.cmd
+**/.mvn/
+
+# Log files
+*.log
+logs/
+
+# Appium/Node modules
+node_modules/
+npm-debug.log*
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Environment/config files (sensitive data!)
+*.env
+*.properties
+/config.properties
+/test-output
